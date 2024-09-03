@@ -10,7 +10,7 @@ html {
 
 
 
-/*.first-page {
+.first-page {
     background-image: url("images/free-photo-of-view-of-empty-beach-and-bright-blue-water.jpeg");
     background-size: 100% 100%;
     width: 100%;
@@ -19,7 +19,7 @@ html {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-}*/
+}
 
 .middle-paragraph {
     padding-top: 45px;
@@ -40,9 +40,8 @@ html {
 
 .second-page {
 
-    background-image: url("")
+    background-image: url("images/pexels-photo-3157890.jpeg");
     background-size: 100% 100%;
-    background-color: lightcoral;
     width: 100%;
     height: 1000px;
 }
