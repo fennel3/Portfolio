@@ -56,6 +56,7 @@ html {
     display: flex;
     justify-content: flex-end;
     padding: 4%;
+    padding-right: 20%;
     
 }
 
@@ -64,12 +65,11 @@ html {
     height: 5rem;
     background-color: #07718e;
     border-radius: 20px;
-    text-align: center;
-    font-size: larger;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+  
 }
 
 
@@ -94,6 +94,7 @@ html {
 
 .presentcontainer {
     padding: 4%;
+    padding-left: 20%;
 }
 
 
@@ -175,16 +176,11 @@ background-color: #2A6879;
     margin-bottom: 20px;
  }
 
- .projects {
-    padding-bottom: 32px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 32px;
- }
+ 
  
  .project-title-cont{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 4%;
     
 }
@@ -192,18 +188,73 @@ background-color: #2A6879;
 .proj-title {
     width: 30rem;
     height: 5rem;
-    background-color: #07718e;
-    border-radius: 20px;
-    text-align: center;
-    font-size: larger;
+    background-color: #27cbf96b;
+    border-radius: 10px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: large;
+    font-size: 50px;
 }
- 
- 
+
+.projects-box{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    
+    
+}
+
+.box1{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 7%;
+}
+
+.box2{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 7%;
+}
+
+.project {
+    width: 50%;
+    height: 200px;
+    background-color: rgba(22, 175, 221);
+    border-radius: 5px;
+    color: white;
+}
+
+.project h1 {
+    padding: 10px;
+}
+
+.project p {
+    padding: 20px;
+}
+
+#pj1{
+background-color: #062F38; 
+}
+
+#pj2{
+background-color: #051010;    
+}
+
+#pj3{
+background-color: #0E242A;    
+}
+
+#pj4{
+background-color: #13414B;    
+}
  
 
 
