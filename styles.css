@@ -199,7 +199,7 @@ background-color: #2A6879;
 
 .projects-box{
     width: 100%;
-    height: 900px;
+    height: 600px;
     display: flex;
     
     
@@ -207,21 +207,21 @@ background-color: #2A6879;
 
 .box1{
         width: 100%;
-        height: 80%;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        padding: 7%;
+        padding: 3%;
 }
 
 .box2{
     width: 100%;
-    height: 80%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: flex-end;
-    padding: 7%;
+    padding: 3%;
+    ;
+    
 }
 
 .project {
@@ -230,6 +230,20 @@ background-color: #2A6879;
     background-color: rgba(22, 175, 221);
     border-radius: 5px;
     color: white;
+    display: flex;
+
+    align-items: center;
+    
+    
+    
+}
+
+.project img {
+    height: 200px;
+    width: 150px;
+    align-self: flex-end;
+    border-radius: 5px;
+    
 }
 
 .project h1 {
@@ -255,7 +269,47 @@ background-color: #0E242A;
 #pj4{
 background-color: #13414B;    
 }
- 
 
+.skill-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+ 
+.skills {
+    width: 50%;
+    height: 100px;
+    background-color: #0E242A;
+    border-radius: 10px;
+    color: white;
+    
+    
+}
+
+#page3 a{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20%;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+   
+}
+
+.skills img {
+    width: 30px;
+    height: 30px;
+}
+
+.skilltext {
+    width: 10%;
+    text-align: center;
+    
+}
 
 
